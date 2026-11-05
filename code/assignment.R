@@ -88,7 +88,7 @@ g_map
 # calculate the area of each county polygon using `st_area()`. 
 # Identify the largest county and report its area in [m^2] (should be 2,289,719,021).
 # NOTE: Use a projected CRS (UTM Zone 17N) for the calculation of area.
-# Reference: Chapter 2 & 3
+# Reference: Chapter 2 & 3l
 
 sf_county_area <- sf_county_s1 %>%
   st_transform(crs = 32617) %>%
